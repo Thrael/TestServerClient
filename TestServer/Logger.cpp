@@ -17,7 +17,8 @@ Logger::Logger(loglevel level, std::unique_ptr<std::ostream> os) {
 }
 
 void Logger::setLogLevel(const loglevel &level){
-    for (auto &f : loggers) {
+    std::lock_guard<std::mutex> lockGuard(this->lock);
+    for (auto& f : loggers) {
             f = [](const char*) {};
         }
 
@@ -25,14 +26,17 @@ void Logger::setLogLevel(const loglevel &level){
             case DEBUG:
                 loggers[DEBUG] =
                         [this](const char* str) {
+                            std::lock_guard<std::mutex> lockGuard(this->lock);
                             *outputStream << "[" << std::put_time(get_cur_time(), format) << "]" << "[DEBUG]" << str << std::endl;};
             case INFO:
                 loggers[INFO] =
                         [this](const char* str) {
+                            std::lock_guard<std::mutex> lockGuard(this->lock);
                             *outputStream << "[" << std::put_time(get_cur_time(), format) << "]" << "[INFO]" << str << std::endl;};
             case ERROR:
                 loggers[ERROR] =
                         [this](const char* str) {
+                            std::lock_guard<std::mutex> lockGuard(this->lock);
                             *outputStream << "[" << std::put_time(get_cur_time(), format) << "]" << "[ERROR]" << str << std::endl;};
             default:
                 break;
@@ -40,7 +44,7 @@ void Logger::setLogLevel(const loglevel &level){
 }
 
 void Logger::setFormat(const char *format) {
-
+    std::lock_guard<std::mutex> lockGuard(this->lock);
     std::strcpy(this->format,format);
 }
 

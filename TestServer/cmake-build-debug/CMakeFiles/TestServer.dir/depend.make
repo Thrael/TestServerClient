@@ -4,11 +4,25 @@
 CMakeFiles/TestServer.dir/Logger.cpp.obj: ../Logger.cpp
 CMakeFiles/TestServer.dir/Logger.cpp.obj: ../Logger.h
 
+CMakeFiles/TestServer.dir/TcpClient.cpp.obj: ../TcpClient.cpp
+CMakeFiles/TestServer.dir/TcpClient.cpp.obj: ../TcpClient.h
+CMakeFiles/TestServer.dir/TcpClient.cpp.obj: ../commons.h
+
 CMakeFiles/TestServer.dir/TcpServer.cpp.obj: ../TcpServer.cpp
 CMakeFiles/TestServer.dir/TcpServer.cpp.obj: ../TcpServer.h
+CMakeFiles/TestServer.dir/TcpServer.cpp.obj: ../commons.h
+
+CMakeFiles/TestServer.dir/Tester.cpp.obj: ../Tester.cpp
+CMakeFiles/TestServer.dir/Tester.cpp.obj: ../Tester.h
+
+CMakeFiles/TestServer.dir/commons.cpp.obj: ../commons.cpp
+CMakeFiles/TestServer.dir/commons.cpp.obj: ../commons.h
 
 CMakeFiles/TestServer.dir/main.cpp.obj: ../Logger.h
+CMakeFiles/TestServer.dir/main.cpp.obj: ../TcpClient.h
 CMakeFiles/TestServer.dir/main.cpp.obj: ../TcpServer.h
+CMakeFiles/TestServer.dir/main.cpp.obj: ../Tester.h
+CMakeFiles/TestServer.dir/main.cpp.obj: ../commons.h
 CMakeFiles/TestServer.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/TestServer.dir/main.cpp.obj: ../main.h
 

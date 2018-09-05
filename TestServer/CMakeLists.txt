@@ -3,4 +3,4 @@ project(TestServer)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(TestServer main.cpp TcpServer.cpp TcpServer.h main.h Logger.cpp Logger.h)
+add_executable(TestServer main.cpp TcpServer.cpp TcpServer.h main.h Logger.cpp Logger.h TcpClient.cpp TcpClient.h commons.h commons.cpp Tester.cpp Tester.h)

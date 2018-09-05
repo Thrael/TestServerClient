@@ -10,6 +10,7 @@
 #include <iomanip>
 #include <chrono>
 #include <mutex>
+#include <pthread.h>
 
 enum loglevel {INFO,DEBUG,ERROR};
 #define LOGLEVELS_NUM 3
@@ -20,6 +21,7 @@ private:
     std::unique_ptr<std::ostream> resource;
     char format[100];
     std::function<void(const char*)> loggers[LOGLEVELS_NUM];
+    std::mutex lock;
 
 public:
     Logger():Logger(loglevel::ERROR, nullptr){}

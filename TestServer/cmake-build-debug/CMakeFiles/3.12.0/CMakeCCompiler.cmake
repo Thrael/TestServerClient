@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "J:/Program Files/JetBrains/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/gcc.exe")
+set(CMAKE_C_COMPILER "J:/Program Files/JetBrains/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "8.1.0")
@@ -16,11 +16,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "J:/Program Files/JetBrains/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/ar.exe")
-set(CMAKE_C_COMPILER_AR "J:/Program Files/JetBrains/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "J:/Program Files/JetBrains/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/ranlib.exe")
-set(CMAKE_C_COMPILER_RANLIB "J:/Program Files/JetBrains/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "J:/Program Files/JetBrains/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/ld.exe")
+set(CMAKE_AR "J:/Program Files/JetBrains/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/ar.exe")
+set(CMAKE_C_COMPILER_AR "J:/Program Files/JetBrains/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "J:/Program Files/JetBrains/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/ranlib.exe")
+set(CMAKE_C_COMPILER_RANLIB "J:/Program Files/JetBrains/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "J:/Program Files/JetBrains/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/ld.exe")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
 set(CMAKE_C_COMPILER_WORKS TRUE)

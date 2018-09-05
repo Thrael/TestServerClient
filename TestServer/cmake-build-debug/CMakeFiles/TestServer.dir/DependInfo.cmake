@@ -5,7 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "J:/Users/Tom/CLionProjects/TestServer/Logger.cpp" "J:/Users/Tom/CLionProjects/TestServer/cmake-build-debug/CMakeFiles/TestServer.dir/Logger.cpp.obj"
+  "J:/Users/Tom/CLionProjects/TestServer/TcpClient.cpp" "J:/Users/Tom/CLionProjects/TestServer/cmake-build-debug/CMakeFiles/TestServer.dir/TcpClient.cpp.obj"
   "J:/Users/Tom/CLionProjects/TestServer/TcpServer.cpp" "J:/Users/Tom/CLionProjects/TestServer/cmake-build-debug/CMakeFiles/TestServer.dir/TcpServer.cpp.obj"
+  "J:/Users/Tom/CLionProjects/TestServer/Tester.cpp" "J:/Users/Tom/CLionProjects/TestServer/cmake-build-debug/CMakeFiles/TestServer.dir/Tester.cpp.obj"
+  "J:/Users/Tom/CLionProjects/TestServer/commons.cpp" "J:/Users/Tom/CLionProjects/TestServer/cmake-build-debug/CMakeFiles/TestServer.dir/commons.cpp.obj"
   "J:/Users/Tom/CLionProjects/TestServer/main.cpp" "J:/Users/Tom/CLionProjects/TestServer/cmake-build-debug/CMakeFiles/TestServer.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

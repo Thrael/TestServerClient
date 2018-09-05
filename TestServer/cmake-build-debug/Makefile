@@ -149,6 +149,33 @@ Logger.cpp.s:
 	$(MAKE) -f CMakeFiles\TestServer.dir\build.make CMakeFiles/TestServer.dir/Logger.cpp.s
 .PHONY : Logger.cpp.s
 
+TcpClient.obj: TcpClient.cpp.obj
+
+.PHONY : TcpClient.obj
+
+# target to build an object file
+TcpClient.cpp.obj:
+	$(MAKE) -f CMakeFiles\TestServer.dir\build.make CMakeFiles/TestServer.dir/TcpClient.cpp.obj
+.PHONY : TcpClient.cpp.obj
+
+TcpClient.i: TcpClient.cpp.i
+
+.PHONY : TcpClient.i
+
+# target to preprocess a source file
+TcpClient.cpp.i:
+	$(MAKE) -f CMakeFiles\TestServer.dir\build.make CMakeFiles/TestServer.dir/TcpClient.cpp.i
+.PHONY : TcpClient.cpp.i
+
+TcpClient.s: TcpClient.cpp.s
+
+.PHONY : TcpClient.s
+
+# target to generate assembly for a file
+TcpClient.cpp.s:
+	$(MAKE) -f CMakeFiles\TestServer.dir\build.make CMakeFiles/TestServer.dir/TcpClient.cpp.s
+.PHONY : TcpClient.cpp.s
+
 TcpServer.obj: TcpServer.cpp.obj
 
 .PHONY : TcpServer.obj
@@ -175,6 +202,60 @@ TcpServer.s: TcpServer.cpp.s
 TcpServer.cpp.s:
 	$(MAKE) -f CMakeFiles\TestServer.dir\build.make CMakeFiles/TestServer.dir/TcpServer.cpp.s
 .PHONY : TcpServer.cpp.s
+
+Tester.obj: Tester.cpp.obj
+
+.PHONY : Tester.obj
+
+# target to build an object file
+Tester.cpp.obj:
+	$(MAKE) -f CMakeFiles\TestServer.dir\build.make CMakeFiles/TestServer.dir/Tester.cpp.obj
+.PHONY : Tester.cpp.obj
+
+Tester.i: Tester.cpp.i
+
+.PHONY : Tester.i
+
+# target to preprocess a source file
+Tester.cpp.i:
+	$(MAKE) -f CMakeFiles\TestServer.dir\build.make CMakeFiles/TestServer.dir/Tester.cpp.i
+.PHONY : Tester.cpp.i
+
+Tester.s: Tester.cpp.s
+
+.PHONY : Tester.s
+
+# target to generate assembly for a file
+Tester.cpp.s:
+	$(MAKE) -f CMakeFiles\TestServer.dir\build.make CMakeFiles/TestServer.dir/Tester.cpp.s
+.PHONY : Tester.cpp.s
+
+commons.obj: commons.cpp.obj
+
+.PHONY : commons.obj
+
+# target to build an object file
+commons.cpp.obj:
+	$(MAKE) -f CMakeFiles\TestServer.dir\build.make CMakeFiles/TestServer.dir/commons.cpp.obj
+.PHONY : commons.cpp.obj
+
+commons.i: commons.cpp.i
+
+.PHONY : commons.i
+
+# target to preprocess a source file
+commons.cpp.i:
+	$(MAKE) -f CMakeFiles\TestServer.dir\build.make CMakeFiles/TestServer.dir/commons.cpp.i
+.PHONY : commons.cpp.i
+
+commons.s: commons.cpp.s
+
+.PHONY : commons.s
+
+# target to generate assembly for a file
+commons.cpp.s:
+	$(MAKE) -f CMakeFiles\TestServer.dir\build.make CMakeFiles/TestServer.dir/commons.cpp.s
+.PHONY : commons.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -215,9 +296,18 @@ help:
 	@echo ... Logger.obj
 	@echo ... Logger.i
 	@echo ... Logger.s
+	@echo ... TcpClient.obj
+	@echo ... TcpClient.i
+	@echo ... TcpClient.s
 	@echo ... TcpServer.obj
 	@echo ... TcpServer.i
 	@echo ... TcpServer.s
+	@echo ... Tester.obj
+	@echo ... Tester.i
+	@echo ... Tester.s
+	@echo ... commons.obj
+	@echo ... commons.i
+	@echo ... commons.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

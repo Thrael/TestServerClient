@@ -59,47 +59,89 @@ include CMakeFiles/TestServer.dir/flags.make
 CMakeFiles/TestServer.dir/main.cpp.obj: CMakeFiles/TestServer.dir/flags.make
 CMakeFiles/TestServer.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=J:\Users\Tom\CLionProjects\TestServer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestServer.dir/main.cpp.obj"
-	"J:\Program Files\JETBRA~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestServer.dir\main.cpp.obj -c J:\Users\Tom\CLionProjects\TestServer\main.cpp
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestServer.dir\main.cpp.obj -c J:\Users\Tom\CLionProjects\TestServer\main.cpp
 
 CMakeFiles/TestServer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestServer.dir/main.cpp.i"
-	"J:\Program Files\JETBRA~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E J:\Users\Tom\CLionProjects\TestServer\main.cpp > CMakeFiles\TestServer.dir\main.cpp.i
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E J:\Users\Tom\CLionProjects\TestServer\main.cpp > CMakeFiles\TestServer.dir\main.cpp.i
 
 CMakeFiles/TestServer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestServer.dir/main.cpp.s"
-	"J:\Program Files\JETBRA~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S J:\Users\Tom\CLionProjects\TestServer\main.cpp -o CMakeFiles\TestServer.dir\main.cpp.s
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S J:\Users\Tom\CLionProjects\TestServer\main.cpp -o CMakeFiles\TestServer.dir\main.cpp.s
 
 CMakeFiles/TestServer.dir/TcpServer.cpp.obj: CMakeFiles/TestServer.dir/flags.make
 CMakeFiles/TestServer.dir/TcpServer.cpp.obj: ../TcpServer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=J:\Users\Tom\CLionProjects\TestServer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TestServer.dir/TcpServer.cpp.obj"
-	"J:\Program Files\JETBRA~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestServer.dir\TcpServer.cpp.obj -c J:\Users\Tom\CLionProjects\TestServer\TcpServer.cpp
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestServer.dir\TcpServer.cpp.obj -c J:\Users\Tom\CLionProjects\TestServer\TcpServer.cpp
 
 CMakeFiles/TestServer.dir/TcpServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestServer.dir/TcpServer.cpp.i"
-	"J:\Program Files\JETBRA~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E J:\Users\Tom\CLionProjects\TestServer\TcpServer.cpp > CMakeFiles\TestServer.dir\TcpServer.cpp.i
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E J:\Users\Tom\CLionProjects\TestServer\TcpServer.cpp > CMakeFiles\TestServer.dir\TcpServer.cpp.i
 
 CMakeFiles/TestServer.dir/TcpServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestServer.dir/TcpServer.cpp.s"
-	"J:\Program Files\JETBRA~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S J:\Users\Tom\CLionProjects\TestServer\TcpServer.cpp -o CMakeFiles\TestServer.dir\TcpServer.cpp.s
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S J:\Users\Tom\CLionProjects\TestServer\TcpServer.cpp -o CMakeFiles\TestServer.dir\TcpServer.cpp.s
 
 CMakeFiles/TestServer.dir/Logger.cpp.obj: CMakeFiles/TestServer.dir/flags.make
 CMakeFiles/TestServer.dir/Logger.cpp.obj: ../Logger.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=J:\Users\Tom\CLionProjects\TestServer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TestServer.dir/Logger.cpp.obj"
-	"J:\Program Files\JETBRA~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestServer.dir\Logger.cpp.obj -c J:\Users\Tom\CLionProjects\TestServer\Logger.cpp
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestServer.dir\Logger.cpp.obj -c J:\Users\Tom\CLionProjects\TestServer\Logger.cpp
 
 CMakeFiles/TestServer.dir/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestServer.dir/Logger.cpp.i"
-	"J:\Program Files\JETBRA~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E J:\Users\Tom\CLionProjects\TestServer\Logger.cpp > CMakeFiles\TestServer.dir\Logger.cpp.i
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E J:\Users\Tom\CLionProjects\TestServer\Logger.cpp > CMakeFiles\TestServer.dir\Logger.cpp.i
 
 CMakeFiles/TestServer.dir/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestServer.dir/Logger.cpp.s"
-	"J:\Program Files\JETBRA~1\X86_64~1.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S J:\Users\Tom\CLionProjects\TestServer\Logger.cpp -o CMakeFiles\TestServer.dir\Logger.cpp.s
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S J:\Users\Tom\CLionProjects\TestServer\Logger.cpp -o CMakeFiles\TestServer.dir\Logger.cpp.s
+
+CMakeFiles/TestServer.dir/TcpClient.cpp.obj: CMakeFiles/TestServer.dir/flags.make
+CMakeFiles/TestServer.dir/TcpClient.cpp.obj: ../TcpClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=J:\Users\Tom\CLionProjects\TestServer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TestServer.dir/TcpClient.cpp.obj"
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestServer.dir\TcpClient.cpp.obj -c J:\Users\Tom\CLionProjects\TestServer\TcpClient.cpp
+
+CMakeFiles/TestServer.dir/TcpClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestServer.dir/TcpClient.cpp.i"
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E J:\Users\Tom\CLionProjects\TestServer\TcpClient.cpp > CMakeFiles\TestServer.dir\TcpClient.cpp.i
+
+CMakeFiles/TestServer.dir/TcpClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestServer.dir/TcpClient.cpp.s"
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S J:\Users\Tom\CLionProjects\TestServer\TcpClient.cpp -o CMakeFiles\TestServer.dir\TcpClient.cpp.s
+
+CMakeFiles/TestServer.dir/commons.cpp.obj: CMakeFiles/TestServer.dir/flags.make
+CMakeFiles/TestServer.dir/commons.cpp.obj: ../commons.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=J:\Users\Tom\CLionProjects\TestServer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TestServer.dir/commons.cpp.obj"
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestServer.dir\commons.cpp.obj -c J:\Users\Tom\CLionProjects\TestServer\commons.cpp
+
+CMakeFiles/TestServer.dir/commons.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestServer.dir/commons.cpp.i"
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E J:\Users\Tom\CLionProjects\TestServer\commons.cpp > CMakeFiles\TestServer.dir\commons.cpp.i
+
+CMakeFiles/TestServer.dir/commons.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestServer.dir/commons.cpp.s"
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S J:\Users\Tom\CLionProjects\TestServer\commons.cpp -o CMakeFiles\TestServer.dir\commons.cpp.s
+
+CMakeFiles/TestServer.dir/Tester.cpp.obj: CMakeFiles/TestServer.dir/flags.make
+CMakeFiles/TestServer.dir/Tester.cpp.obj: ../Tester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=J:\Users\Tom\CLionProjects\TestServer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TestServer.dir/Tester.cpp.obj"
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestServer.dir\Tester.cpp.obj -c J:\Users\Tom\CLionProjects\TestServer\Tester.cpp
+
+CMakeFiles/TestServer.dir/Tester.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestServer.dir/Tester.cpp.i"
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E J:\Users\Tom\CLionProjects\TestServer\Tester.cpp > CMakeFiles\TestServer.dir\Tester.cpp.i
+
+CMakeFiles/TestServer.dir/Tester.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestServer.dir/Tester.cpp.s"
+	"J:\Program Files\JETBRA~1\X86_64~2.0-R\mingw64\bin\G__~1.EXE" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S J:\Users\Tom\CLionProjects\TestServer\Tester.cpp -o CMakeFiles\TestServer.dir\Tester.cpp.s
 
 # Object files for target TestServer
 TestServer_OBJECTS = \
 "CMakeFiles/TestServer.dir/main.cpp.obj" \
 "CMakeFiles/TestServer.dir/TcpServer.cpp.obj" \
-"CMakeFiles/TestServer.dir/Logger.cpp.obj"
+"CMakeFiles/TestServer.dir/Logger.cpp.obj" \
+"CMakeFiles/TestServer.dir/TcpClient.cpp.obj" \
+"CMakeFiles/TestServer.dir/commons.cpp.obj" \
+"CMakeFiles/TestServer.dir/Tester.cpp.obj"
 
 # External object files for target TestServer
 TestServer_EXTERNAL_OBJECTS =
@@ -107,11 +149,14 @@ TestServer_EXTERNAL_OBJECTS =
 TestServer.exe: CMakeFiles/TestServer.dir/main.cpp.obj
 TestServer.exe: CMakeFiles/TestServer.dir/TcpServer.cpp.obj
 TestServer.exe: CMakeFiles/TestServer.dir/Logger.cpp.obj
+TestServer.exe: CMakeFiles/TestServer.dir/TcpClient.cpp.obj
+TestServer.exe: CMakeFiles/TestServer.dir/commons.cpp.obj
+TestServer.exe: CMakeFiles/TestServer.dir/Tester.cpp.obj
 TestServer.exe: CMakeFiles/TestServer.dir/build.make
 TestServer.exe: CMakeFiles/TestServer.dir/linklibs.rsp
 TestServer.exe: CMakeFiles/TestServer.dir/objects1.rsp
 TestServer.exe: CMakeFiles/TestServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=J:\Users\Tom\CLionProjects\TestServer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TestServer.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=J:\Users\Tom\CLionProjects\TestServer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable TestServer.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TestServer.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

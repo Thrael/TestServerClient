@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-J:/Users/Tom/CLionProjects/TestServer/Logger.cpp
-cstring
--
-Logger.h
-J:/Users/Tom/CLionProjects/TestServer/Logger.h
-
 J:/Users/Tom/CLionProjects/TestServer/Logger.h
 iosfwd
 -
@@ -27,8 +21,22 @@ iomanip
 -
 chrono
 -
+mutex
+-
+pthread.h
+-
+
+J:/Users/Tom/CLionProjects/TestServer/TcpClient.h
+string
+-
 
 J:/Users/Tom/CLionProjects/TestServer/TcpServer.h
+string
+-
+
+J:/Users/Tom/CLionProjects/TestServer/Tester.h
+
+J:/Users/Tom/CLionProjects/TestServer/commons.h
 string
 -
 
@@ -37,10 +45,18 @@ iostream
 -
 fstream
 -
+algorithm
+-
 main.h
 J:/Users/Tom/CLionProjects/TestServer/main.h
+Tester.h
+J:/Users/Tom/CLionProjects/TestServer/Tester.h
 
 J:/Users/Tom/CLionProjects/TestServer/main.h
+commons.h
+J:/Users/Tom/CLionProjects/TestServer/commons.h
+TcpClient.h
+J:/Users/Tom/CLionProjects/TestServer/TcpClient.h
 TcpServer.h
 J:/Users/Tom/CLionProjects/TestServer/TcpServer.h
 Logger.h

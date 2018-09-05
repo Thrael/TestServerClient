@@ -1,11 +1,10 @@
-#include <fstream>
 #include <iostream>
-#include "TcpServer.h"
+#include <fstream>
+#include "TcpClient.h"
 #include "commons.h"
 
-
-TcpServer::TcpServer():TcpServer("server.cfg"){}
-TcpServer::TcpServer(std::string configFile) {
+TcpClient::TcpClient():TcpClient("client.cfg"){}
+TcpClient::TcpClient(std::string configFile) {
     std::ifstream ifs;
     ifs.open(configFile);
     if(!ifs){
@@ -15,11 +14,11 @@ TcpServer::TcpServer(std::string configFile) {
     readConfig(ifs);
     ifs.close();
 }
-TcpServer::TcpServer(std::istream& configFile) {
+TcpClient::TcpClient(std::istream& configFile) {
     readConfig(configFile);
 }
 
-void TcpServer::readConfig(std::istream& configFile) {
+void TcpClient::readConfig(std::istream& configFile) {
 
     //TODO: validate values
     std::string line;
@@ -29,22 +28,23 @@ void TcpServer::readConfig(std::istream& configFile) {
         splitPropertyLine(line, key, value);
         if(key == "port"){
             this->port = std::strtol(value.data(),nullptr ,10);
-        } else if(key == "timeout"){
-            this->timeout = std::strtol(value.data(),nullptr ,10);
-        } else if(key == "sessions"){
-            this->sessions = std::strtol(value.data(),nullptr ,10);
+        } else if(key == "remote"){
+            this->remote = value;
         } else if(key == "loglevel"){
             this->loglevel = value;
         }
     }
+
+
 }
 
-void TcpServer::start() {
+
+void TcpClient::start() {
     std::cout   <<"\tstarted\n"
                 <<"\tport: "<<this->port<<std::endl
-                <<"\ttimeout: "<<this->timeout<<std::endl
-                <<"\tsessions: "<<this->sessions<<std::endl
+                <<"\tremote: "<<this->remote<<std::endl
                 <<"\tlogLevel: "<<this->loglevel;
+
 }
 
 

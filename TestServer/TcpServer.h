@@ -9,14 +9,15 @@ class TcpServer {
     int timeout;
     int sessions;
     std::string loglevel;
+    //TODO: Logger
 
 public:
     TcpServer();
+    explicit TcpServer(std::string configFile);
     explicit TcpServer(std::istream& configFile);
     void start();
 private:
     void readConfig(std::istream& configFile);
-    void splitConfLine(const std::string& line, std::string& key, std::string& value);
 };
 
 
